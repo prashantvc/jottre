@@ -79,7 +79,7 @@
 		A6C0D70225B9DB9D00336230 /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
 		A6C0D70625B9F21400336230 /* PKDrawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKDrawing.swift; sourceTree = "<group>"; };
 		A6C0D70A25B9F42400336230 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
-		A6E3B7E825B3260200C65157 /* Jottre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jottre.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E3B7E825B3260200C65157 /* Scribble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scribble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E3B7EB25B3260200C65157 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6E3B7ED25B3260200C65157 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A6E3B7F425B3260300C65157 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -183,7 +183,7 @@
 		A6E3B7E925B3260200C65157 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A6E3B7E825B3260200C65157 /* Jottre.app */,
+				A6E3B7E825B3260200C65157 /* Scribble.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -284,9 +284,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A6E3B7E725B3260200C65157 /* Jottre */ = {
+		A6E3B7E725B3260200C65157 /* Scribble */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6E3B7FC25B3260300C65157 /* Build configuration list for PBXNativeTarget "Jottre" */;
+			buildConfigurationList = A6E3B7FC25B3260300C65157 /* Build configuration list for PBXNativeTarget "Scribble" */;
 			buildPhases = (
 				A6E3B7E425B3260200C65157 /* Sources */,
 				A6E3B7E525B3260200C65157 /* Frameworks */,
@@ -296,9 +296,9 @@
 			);
 			dependencies = (
 			);
-			name = Jottre;
+			name = Scribble;
 			productName = Jottre;
-			productReference = A6E3B7E825B3260200C65157 /* Jottre.app */;
+			productReference = A6E3B7E825B3260200C65157 /* Scribble.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -329,7 +329,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A6E3B7E725B3260200C65157 /* Jottre */,
+				A6E3B7E725B3260200C65157 /* Scribble */,
 			);
 		};
 /* End PBXProject section */
@@ -546,15 +546,17 @@
 				CODE_SIGN_ENTITLEMENTS = Jottre/Jottre.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 20;
-				DEVELOPMENT_TEAM = Y78RPE9KK3;
+				DEVELOPMENT_TEAM = XSM9QT73SA;
 				INFOPLIST_FILE = Jottre/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Scribble;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.5;
-				PRODUCT_BUNDLE_IDENTIFIER = com.antonlorani.jottre;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prashantvc.scribblenotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
@@ -570,15 +572,17 @@
 				CODE_SIGN_ENTITLEMENTS = Jottre/Jottre.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 20;
-				DEVELOPMENT_TEAM = Y78RPE9KK3;
+				DEVELOPMENT_TEAM = XSM9QT73SA;
 				INFOPLIST_FILE = Jottre/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Scribble;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.5;
-				PRODUCT_BUNDLE_IDENTIFIER = com.antonlorani.jottre;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prashantvc.scribblenotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
@@ -598,7 +602,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6E3B7FC25B3260300C65157 /* Build configuration list for PBXNativeTarget "Jottre" */ = {
+		A6E3B7FC25B3260300C65157 /* Build configuration list for PBXNativeTarget "Scribble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6E3B7FD25B3260300C65157 /* Debug */,

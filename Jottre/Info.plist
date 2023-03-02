@@ -8,12 +8,12 @@
 	<array>
 		<dict>
 			<key>CFBundleTypeName</key>
-			<string>Jottre</string>
+			<string>Scribble Notes</string>
 			<key>LSHandlerRank</key>
 			<string>Owner</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>com.antonlorani.jottre.jot</string>
+				<string>com.prashantvc.scribblenotes.jot</string>
 			</array>
 		</dict>
 	</array>
@@ -111,11 +111,11 @@
 				<string>public.content</string>
 			</array>
 			<key>UTTypeDescription</key>
-			<string>Jottre document</string>
+			<string>Handwritten Document</string>
 			<key>UTTypeIconFiles</key>
 			<array/>
 			<key>UTTypeIdentifier</key>
-			<string>com.antonlorani.jottre.jot</string>
+			<string>com.prashantvc.scribblenotes.jot</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.filename-extension</key>
